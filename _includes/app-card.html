@@ -1,0 +1,23 @@
+<div
+    class="github-component d-flex flex-column flex-justify-between height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-card p-3">
+    <div></div>
+    <div>
+        <h4>{{ app.name }}</h4>
+        {% if app.client && app.client_url %}
+        <a href="{{ app.client_url }}">
+            {{ app.client }}
+        </a>
+        {% else %}
+        <small>{% if app.client %} {{ app.client }} {% else %} Personal Project {% endif %}</small>
+        {% endif %}
+        <p>{{ app.short_description }}</p>
+        Technologies:
+        {% if app.technologies %}
+        <ul>
+            {% for technology in app.technologies %}
+            <li>{{ technology }}</li>
+            {% endfor %}
+        </ul>
+        {% endif%}
+    </div>
+</div>

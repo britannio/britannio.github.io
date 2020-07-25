@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -28,31 +28,116 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: britannio
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
+  stackoverflow: 6134716
   # telegram: your_username
-  # twitter: your_username
+  twitter: britannioj
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
+  - name: Flutter
+    web_url: https://flutter.dev
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: Autonomous Driving
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: hobby 3
+
+  - name: hobby 4
+
+apps:
+  - name: Reflection.app
+    client: Holstee Inc
+    client_url: https://holstee.com
+    short_description: A guided journaling app
+    technologies: 
+      - Flutter
+      - Dart
+    screenshot: image.jpg
+    play_store_id: app.reflection.reflection
+    app_store_id: 
+    website: https://my.reflection.app
+  - name: Cheon Smart Planner
+    short_description: A Smart Study Planner app for students
+    technologies: 
+      - Flutter
+      - Dart
+    play_store_id: app.cheon.app
+    app_store_id: 1486076973
+    website: https://cheon.app
+    source_code: https://github.com/cheon-app/planner
+  - name: Covid-19
+    client: World Health Organization
+    client_url: https://who.int
+    short_description: An information app for Covid-19
+    technologies:
+      - Flutter
+      - Dart
+    play_store_id: 
+    app_store_id: 
+    source_code: https://github.com/WorldHealthOrganization/app
+  - name: My Portfolio
+    short_description: 
+    technologies:
+      - HTML
+      - CSS
+      - RUBY
+    website: \#
+    source_code: github.com/britannio/personal-website
+  - name: Solar Sales
+    client: Avatara Technologies
+    client_url: avataratech.com
+    short_description: A map based app for D2D salesperson to manage clients and generate leads.
+    technologies: 
+      - Flutter
+      - Dart    
+    play_store_id: app.solarsales.app
+    app_store_id: 1474039079
+    website: https://solarsales.app/
+  - name: Emrals
+    client: Emrals
+    client_url: https://emrals.com
+    short_description: 
+    technologies: 
+      - Flutter
+      - Dart    
+    play_store_id:
+    app_store_id: 
+    website: https://
+    source_code: github.com/
+  - name: DIG  Impact
+    client: Wyrmix LLC
+    client_url: http://wyrmix.com
+    short_description: 
+    technologies: 
+      - Flutter
+      - Dart    
+    play_store_id:
+    app_store_id: 
+    website: https://
+    source_code: github.com/
+  - name: Amplified.gg
+    client: Avatara Technologies
+    client_url: https://avataratech.com
+    short_description: 
+    technologies: 
+      - Flutter
+      - Dart
+      - Java
+    play_store_id:
+    app_store_id: 
+    website: https://
+    source_code: github.com/
+
