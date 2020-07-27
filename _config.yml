@@ -46,38 +46,29 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
-  - name: Flutter
-    web_url: https://flutter.dev
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+# topics:
+#   - name: Flutter
+#     web_url: https://flutter.dev
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Autonomous Driving
+#   - name: Autonomous Driving
 
-  - name: hobby 3
+#   - name: hobby 3
 
-  - name: hobby 4
+#   - name: hobby 4
 
 apps:
   - name: Reflection.app
     client: Holstee Inc
     client_url: https://holstee.com
-    short_description: A guided journaling app
+    short_description: A better way to journal
     technologies: 
       - Flutter
       - Dart
-    screenshot: image.jpg
+    screenshot: reflection.jpg
     play_store_id: app.reflection.reflection
-    app_store_id: 
+    app_store_id: 1504547616
     website: https://my.reflection.app
-  - name: Cheon Smart Planner
-    short_description: A Smart Study Planner app for students
-    technologies: 
-      - Flutter
-      - Dart
-    play_store_id: app.cheon.app
-    app_store_id: 1486076973
-    website: https://cheon.app
-    source_code: https://github.com/cheon-app/planner
   - name: Covid-19
     client: World Health Organization
     client_url: https://who.int
@@ -85,17 +76,20 @@ apps:
     technologies:
       - Flutter
       - Dart
+    screenshot: covid.jpg
     play_store_id: 
     app_store_id: 
     source_code: https://github.com/WorldHealthOrganization/app
-  - name: My Portfolio
-    short_description: 
-    technologies:
-      - HTML
-      - CSS
-      - RUBY
-    website: \#
-    source_code: github.com/britannio/personal-website
+  - name: Cheon Smart Planner
+    short_description: A Smart Study Planner app for students
+    technologies: 
+      - Flutter
+      - Dart
+    screenshot: cheon.jpg
+    play_store_id: app.cheon.app
+    app_store_id: 1486076973
+    website: https://cheon.app
+    source_code: https://github.com/cheon-app/planner
   - name: Solar Sales
     client: Avatara Technologies
     client_url: avataratech.com
@@ -103,41 +97,47 @@ apps:
     technologies: 
       - Flutter
       - Dart    
+    screenshot: solarsales.jpg
     play_store_id: app.solarsales.app
     app_store_id: 1474039079
     website: https://solarsales.app/
   - name: Emrals
     client: Emrals
     client_url: https://emrals.com
-    short_description: 
+    short_description: Earn cryptocurreny for cleaning up rubbish in your area.
     technologies: 
       - Flutter
       - Dart    
-    play_store_id:
-    app_store_id: 
-    website: https://
-    source_code: github.com/
-  - name: DIG  Impact
+    screenshot: emrals.jpg
+    play_store_id: com.apps.emrals
+    app_store_id: 1289090169
+    website: https://emrals.com
+  - name: DIG Impact
     client: Wyrmix LLC
     client_url: http://wyrmix.com
     short_description: 
     technologies: 
       - Flutter
       - Dart    
-    play_store_id:
-    app_store_id: 
-    website: https://
-    source_code: github.com/
-  - name: Amplified.gg
-    client: Avatara Technologies
-    client_url: https://avataratech.com
-    short_description: 
-    technologies: 
-      - Flutter
-      - Dart
-      - Java
-    play_store_id:
-    app_store_id: 
-    website: https://
-    source_code: github.com/
+    screenshot: dig.jpg
+  # - name: My Portfolio
+  #   short_description: 
+  #   technologies:
+  #     - HTML
+  #     - CSS
+  #     - Ruby
+  #   website: \#
+  #   source_code: github.com/britannio/personal-website
+  # - name: Amplified.gg
+  #   client: Avatara Technologies
+  #   client_url: https://avataratech.com
+  #   short_description: 
+  #   technologies: 
+  #     - Flutter
+  #     - Dart
+  #     - Java
+  #   play_store_id:
+  #   app_store_id: 
+  #   website: https://
+  #   source_code: github.com/
 

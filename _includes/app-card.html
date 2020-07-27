@@ -1,7 +1,10 @@
 <div
-    class="github-component d-flex flex-column flex-justify-between height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-card p-3">
-    <div></div>
-    <div>
+    class="github-component d-flex flex-row flex-justify-between height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-card p-3">
+    <!-- <img class="screenshot" src="https://wallpapercave.com/wp/wp2875673.jpg" width="90" height="160" alt=""> -->
+    {% if app.screenshot %}
+        <img class="screenshot" src="assets/screenshots/{{ app.screenshot }}" width="90" height="196" alt="Screenshot">
+    {% endif %}
+    <div class="flex-auto pl-3">
         <h4>{{ app.name }}</h4>
         {% if app.client && app.client_url %}
         <a href="{{ app.client_url }}">
@@ -11,13 +14,27 @@
         <small>{% if app.client %} {{ app.client }} {% else %} Personal Project {% endif %}</small>
         {% endif %}
         <p>{{ app.short_description }}</p>
-        Technologies:
+        <h5>Technologies:</h5>
         {% if app.technologies %}
-        <ul>
             {% for technology in app.technologies %}
-            <li>{{ technology }}</li>
+                <span  class="branch-name">{{ technology }}</span>
+                
             {% endfor %}
-        </ul>
-        {% endif%}
+        {% endif %}
+        <!-- <hr>
+        <div class="d-flex flex-row">
+            {% if app.source_code %}
+                <div class="Box border-dashed circle p-2">•••</div>
+            {% endif %}
+            {% if app.play_store_id %}
+                <div>A</div>
+            {% endif %}
+            {% if app.app_store_id %}
+                <div>A</div>
+            {% endif %}
+            {% if app.website %}
+                <div class="flex-auto">Website</div>
+            {% endif %}
+        </div> -->
     </div>
 </div>
