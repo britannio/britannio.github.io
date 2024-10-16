@@ -37,14 +37,15 @@ social_media:
   # keybase: your_username
   linkedin: britannio
   # mastodon: your_username
-  # medium: your_username
-  stackoverflow: 6134716
+  medium: britannio
+  # stackoverflow: 6134716
   # telegram: your_username
   twitter: britannioj
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  tiktok: britanniobuilds
 
 # topics:
 #   - name: Flutter
@@ -58,11 +59,23 @@ social_media:
 #   - name: hobby 4
 
 apps:
+  - name: Pic Habits
+    client: Britannio
+    client_url: https://britannio.com
+    short_description: A photo based habit tracker
+    technologies:
+      - Flutter
+      - Dart
+    screenshot: pichabits.jpg
+    play_store_id: app.pichabits.pichabits
+    app_store_id: 6621184172
+  # - name: Classify
+    # client:
   - name: Reflection.app
     client: Holstee Inc
     client_url: https://holstee.com
     short_description: A better way to journal
-    technologies: 
+    technologies:
       - Flutter
       - Dart
     screenshot: reflection.jpg
@@ -77,12 +90,12 @@ apps:
       - Flutter
       - Dart
     screenshot: covid.jpg
-    play_store_id: 
-    app_store_id: 
+    play_store_id:
+    app_store_id:
     source_code: https://github.com/WorldHealthOrganization/app
   - name: Cheon Smart Planner
     short_description: A Smart Study Planner app for students
-    technologies: 
+    technologies:
       - Flutter
       - Dart
     screenshot: cheon.jpg
@@ -94,9 +107,9 @@ apps:
     client: Avatara Technologies
     client_url: avataratech.com
     short_description: A map based app for D2D salesperson to manage clients and generate leads.
-    technologies: 
+    technologies:
       - Flutter
-      - Dart    
+      - Dart
     screenshot: solarsales.jpg
     play_store_id: app.solarsales.app
     app_store_id: 1474039079
@@ -105,9 +118,9 @@ apps:
     client: Emrals
     client_url: https://emrals.com
     short_description: Earn cryptocurreny for cleaning up rubbish in your area.
-    technologies: 
+    technologies:
       - Flutter
-      - Dart    
+      - Dart
     screenshot: emrals.jpg
     play_store_id: com.apps.emrals
     app_store_id: 1289090169
@@ -115,13 +128,13 @@ apps:
   - name: DIG Impact
     client: Wyrmix LLC
     client_url: http://wyrmix.com
-    short_description: 
-    technologies: 
+    short_description:
+    technologies:
       - Flutter
-      - Dart    
+      - Dart
     screenshot: dig.jpg
   # - name: My Portfolio
-  #   short_description: 
+  #   short_description:
   #   technologies:
   #     - HTML
   #     - CSS
@@ -131,13 +144,12 @@ apps:
   # - name: Amplified.gg
   #   client: Avatara Technologies
   #   client_url: https://avataratech.com
-  #   short_description: 
-  #   technologies: 
+  #   short_description:
+  #   technologies:
   #     - Flutter
   #     - Dart
   #     - Java
   #   play_store_id:
-  #   app_store_id: 
+  #   app_store_id:
   #   website: https://
   #   source_code: github.com/
-
